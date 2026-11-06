@@ -1,0 +1,20 @@
+
+{
+  "name": "baseic-backend",
+  "version": "2.0.0",
+  "description": "Reusable backend for BASEIC Clothing stores",
+  "main": "server.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "resend": "^6.0.0"
+  }
+}
